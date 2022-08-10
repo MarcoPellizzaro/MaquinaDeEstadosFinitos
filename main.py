@@ -53,7 +53,6 @@ else:
     while int(linhas[0]) > cont - 1:
         estado = "S0"
         for x in linhas[cont]:
-            x = x.lower()
             if x != "a" or x != "b" or x != "c":
                 print("ERRO, alfabeto incoerente")
                 quit()
